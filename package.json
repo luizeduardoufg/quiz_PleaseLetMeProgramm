@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./src/index.js",
+    "knex": "knex",
     "ui": "browser-sync start --proxy=localhost:8000 --files='**/*.css, **/*.pug, **/*.js' --ignore=node_modules --reload-delay 10 --no-ui --no-notify"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "knex": "^0.21.5",
+    "mysql": "^2.18.1",
     "nodemon": "^2.0.4",
     "pug": "^3.0.0"
   },
